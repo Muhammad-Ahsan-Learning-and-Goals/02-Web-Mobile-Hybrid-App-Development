@@ -1,0 +1,100 @@
+.navbar {
+  background-color: blueviolet !important;
+  font-weight: bold;
+}
+.nav-link {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+.fa-cart-plus {
+  font-size: 22px !important;
+}
+.fa-user-circle {
+  font-size: 22px !important;
+}
+.fa-truck,
+.fa-headphones,
+.fa-thumbs-up {
+  font-size: 50px !important;
+  margin-right: 10px;
+  color: purple !important;
+}
+
+.heading {
+  color: purple !important;
+}
+
+.card1,
+.card2,
+.card3 {
+  display: flex;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 2px 4px 5px grey;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.mainCard {
+  margin-top: 34px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+  }
+}
+
+.newArrivals {
+  margin-top: 50px;
+}
+.card {
+  width: 250px;
+  height: auto !important;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-weight: bold;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: purple;
+}
+.heading {
+  font-weight: bold;
+  text-align: center;
+  color: purple;
+  margin: 20px;
+}
+
+.heading > h1 {
+  text-shadow: 2px 2px 4px black;
+}
+
+.footer {
+  background-color: purple;
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+}
+
+.footer > div {
+  text-align: center;
+  color: white;
+}
+.h2 {
+  color: white;
+}
