@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contect Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div class="container ">
+      <form>
+        <h1 style="text-align: center;" class="col"> Lets Get In Touch</h1>
+
+        <h1 style="text-align:center;></h1>
+    <br>     
+    <br>
+        <label for="fname" style="font-size: 16px">First Name</label>
+        
+        <input
+          type="text"
+          id="fname"
+          required
+          name="firstname"
+          placeholder="Enter Your First Name"
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          required
+          placeholder="Enter Your Last Name"
+        />
+
+        
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Pak">PAKISTAN</option>
+          <option value="Ind">INDIA</option>
+          <option value="Uae">UAE</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Write Your Message"
+          style="height: 200px"
+          required
+        ></textarea>
+
+        <input type="submit" value="Submit Request" required />
+      </form>
+    </div>
+  </body>
+</html>
