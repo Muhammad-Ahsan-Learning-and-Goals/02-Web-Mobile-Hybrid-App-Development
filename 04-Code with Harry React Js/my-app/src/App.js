@@ -2,7 +2,15 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  return <div className="blank">Lovely</div>;
+  return (
+    <>
+      <nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contect</li>
+      </nav>
+    </>
+  );
 }
 
 export default App;
