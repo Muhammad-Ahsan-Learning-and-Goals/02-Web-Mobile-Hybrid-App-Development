@@ -5,8 +5,8 @@ import { render } from "@testing-library/react";
 
 class App extends React.Component {
   state = {
-    setCount: 10,
-  };
+    setCount: 0,
+  }
 
   render() {
     return (
@@ -14,12 +14,17 @@ class App extends React.Component {
         <h1>Counter App</h1>
         <h2>{this.state.setCount}</h2>
         <button onClick ={()=>{
-          this.setCount +=1;
-          }}>+</button>
+          this.setState({
+            setCount:this.state.setCount+ 1,
+          })
+          }}> + </button>
 
-        <button onClick = {function () {
-            this.state.setCount -= 1;
-          }}>-</button>
+        <button onClick ={()=>{
+          this.setState({
+            setCount:this.state.setCount-1,
+          })
+          }}> - </button>
+    
       </div>
     );
   }
