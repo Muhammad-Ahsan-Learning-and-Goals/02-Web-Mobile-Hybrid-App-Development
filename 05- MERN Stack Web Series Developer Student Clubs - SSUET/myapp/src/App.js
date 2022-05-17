@@ -13,8 +13,13 @@ class App extends React.Component {
       <div className="App">
         <h1>Counter App</h1>
         <h2>{this.state.setCount}</h2>
-        <button>+</button>
-        <button>-</button>
+        <button onClick={function() {
+          this.state.setCount +=1;
+          }}>+</button>
+
+        <button onClick = {function () {
+            this.state.setCount -= 1;
+          }}>-</button>
       </div>
     );
   }
