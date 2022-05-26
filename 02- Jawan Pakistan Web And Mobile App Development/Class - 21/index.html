@@ -5,12 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+    </script>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
+    </script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyAEsO-eIgF-3JpcJLGK5EpjWN0aeToa9Q8",
+        authDomain: "ahsanproject001.firebaseapp.com",
+        databaseURL:
+          "https://ahsanproject001-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "ahsanproject001",
+        storageBucket: "ahsanproject001.appspot.com",
+        messagingSenderId: "465626629839",
+        appId: "1:465626629839:web:57fc9a34b294918e3c99ba",
+        measurementId: "G-NK1LMTT0H9",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </head>
   <body>
     <div>
       <input id="name" type=" text" placeholder="name" />
       <br />
-      <input  id="roll" type=" Text" placeholder="Roll No " />
+      <input id="roll" type=" Text" placeholder="Roll No " />
 
       <br />
 

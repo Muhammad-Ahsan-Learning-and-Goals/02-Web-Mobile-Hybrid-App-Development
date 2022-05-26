@@ -10,3 +10,5 @@ function saveData() {
 
   console.log(student);
 }
+
+console.log(firebase);
