@@ -8,7 +8,8 @@ function saveData() {
     roll: roll.value,
   };
 
-  console.log(student);
+  firebase.database().ref(student).set(student);
+  //   console.log(student);
 }
 
-console.log(firebase);
+// console.log(firebase.database);
