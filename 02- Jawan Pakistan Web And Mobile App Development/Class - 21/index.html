@@ -6,30 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-
+    <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js"></script>
+    <script>
       // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
+      var firebaseConfig = {
         apiKey: "AIzaSyAEsO-eIgF-3JpcJLGK5EpjWN0aeToa9Q8",
         authDomain: "ahsanproject001.firebaseapp.com",
         databaseURL:
           "https://ahsanproject001-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "ahsanproject001",
-        storageBucket: "ahsanproject001.appspot.com",
+        projectId: "ahsanproject001.appspot.com",
+        storageBucket: "smit-ed438.appspot.com",
         messagingSenderId: "465626629839",
         appId: "1:465626629839:web:38aacd5e66d70c3f3c99ba",
         measurementId: "G-P394SDE5KX",
       };
-
       // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
+      firebase.initializeApp(firebaseConfig);
     </script>
   </head>
   <body>
