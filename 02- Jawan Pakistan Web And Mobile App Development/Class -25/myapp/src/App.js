@@ -1,45 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
 
- let todo= [
-      { fname:"Ali"},
-      {lname:"Raza"}
-      {age:"54"},
-
-  ];
-  return(
-    <div>
-      <ul>
-        {todo.map((item, index)=>{
-          return<li>{item.text}</li>
-
-        })}
-      </ul>
-    </div>
-
-  )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let todo = [{ fname: "Ali" }, { lname: "Raza" }, { age: "54" }];
+return (
+  <div>
+    <ul>
+      {todo.map((item, index) => {
+        return <li>{item.text}</li>;
+      })}
+    </ul>
+  </div>
+);
 
 
 
@@ -60,7 +31,7 @@ import "./App.css";
 //     </div>
 
 //     /* <h1> Hello World</h1> */
-   
+
 //   );
 // }
 
