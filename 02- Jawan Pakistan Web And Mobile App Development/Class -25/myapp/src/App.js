@@ -1,20 +1,53 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Component } from "react";
 
-function App() {
-  let fname = "Muhammad";
-  let lname = "Ahsan";
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <h1>Main Components</h1>
+        <Footer />
 
-  let arr = [1, 2, 3, 4, 5];
-  return (
-    <div>
-      <h1>{`${fname} ${lname}`}</h1>
-
-      <h1> {arr}</h1>
-    </div>
-
-    /* <h1> Hello World</h1> */
-  );
+        <h1> </h1>
+      </div>
+    );
+  }
 }
 
+class Header extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Header</h1>
+      </div>
+    );
+  }
+}
+
+class Footer extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Footer</h1>
+      </div>
+    );
+  }
+}
+
+// class App extends Component {
+//   render() {
+//     let fname = "Muhammad";
+//     let lname = "Ahsan";
+//     return (
+//       <div>
+//         <header />
+//         <h1>{`${fname} ${lname}`}</h1>
+
+//         <h1> </h1>
+//       </div>
+//     );
+//   }
+// }
 export default App;
