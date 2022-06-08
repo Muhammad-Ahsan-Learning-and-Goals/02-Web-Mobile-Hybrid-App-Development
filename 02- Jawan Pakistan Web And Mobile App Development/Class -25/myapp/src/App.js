@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
         <Header />
-        <h1>Main Components</h1>
+        <h1 style={{ color: "red" }}>Main Components</h1>
         <Footer />
 
         <h1> </h1>
@@ -29,7 +29,7 @@ class Header extends Component {
 class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className="Footer">
         <h1>Footer</h1>
       </div>
     );

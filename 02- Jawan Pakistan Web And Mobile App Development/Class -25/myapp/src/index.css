@@ -1,4 +1,8 @@
  .Header{
    background-color:darkgray;
  }
- 
+ .Footer{
+   margin-left: 10px;
+   background-color: cadetblue;
+   text-align: center;
+ }
