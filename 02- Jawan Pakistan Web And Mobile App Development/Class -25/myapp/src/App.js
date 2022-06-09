@@ -1,18 +1,25 @@
-import logo from "./logo.svg";
+import React, { Component } from "react";
 import "./App.css";
-import { Component } from "react";
+import Header from "./componets/Header";
+import Footer from "./componets/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
     return (
       <div>
-        {/* <Header /> */}
+        <Header />
         <h1 style={{ color: "red" }}>Main Components</h1>
         <img
           src="https://static.remove.bg/remove-bg-web/669d7b10b2296142983fac5a5243789bd1838d00/assets/start_remove-c851bdf8d3127a24e2d137a55b1b427378cd17385b01aec6e59d5d4b5f39d2ec.png"
           alt=""
         />
-        {/* <Footer /> */}
+
+        <Footer />
+
+        <button type="button" className="btn btn-primary ">
+          Primary
+        </button>
 
         <h1> </h1>
       </div>

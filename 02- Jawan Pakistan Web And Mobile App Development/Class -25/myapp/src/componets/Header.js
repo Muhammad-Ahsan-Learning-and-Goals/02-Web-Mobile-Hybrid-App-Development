@@ -1,15 +1,11 @@
 import React from "react";
-import { Text, View } from "react-native";
-import React, { Component } from "react";
 
-export class Header extends Component {
+class Header extends React.Component {
   render() {
     return (
-      <View>
-        <div className="header">
-          <Text>Header</Text>
-        </div>
-      </View>
+      <div className="header">
+        <h1>Header Componet</h1>
+      </div>
     );
   }
 }

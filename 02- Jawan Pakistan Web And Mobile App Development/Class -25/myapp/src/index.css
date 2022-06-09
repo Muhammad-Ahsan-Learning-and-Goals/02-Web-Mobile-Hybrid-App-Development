@@ -1,8 +1,13 @@
- .Header{
+ .header{
    background-color:darkgray;
  }
- .Footer{
+ .footer{
    margin-left: 10px;
    background-color: cadetblue;
    text-align: center;
+ }
+ .btn{
+   background-color: springgreen;
+   text-align: center;
+   margin: 10px;
  }
