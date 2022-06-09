@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./componets/Header";
 import Footer from "./componets/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import BasicTextFields from "./componets/TextField";
 
 class App extends Component {
   render() {
@@ -17,6 +18,8 @@ class App extends Component {
 
         <Footer />
 
+        <BasicTextFields />
+
         <button type="button" className="btn btn-primary ">
           Primary
         </button>
@@ -26,6 +29,7 @@ class App extends Component {
     );
   }
 }
+import BasicTextFields from "./componets/TextField";
 
 // class Header extends Component {
 //   render() {
