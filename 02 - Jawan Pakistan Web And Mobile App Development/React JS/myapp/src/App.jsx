@@ -10,9 +10,12 @@ class App extends React.Component {
         <Header />
 
         <div className="main">
+          <button type="button" class="btn btn-success">
+            Success
+          </button>
           <h1>Main Component</h1>
         </div>
-
+        <img src="is.jpg" alt="car iamge" />
         <Footer />
       </div>
     );
