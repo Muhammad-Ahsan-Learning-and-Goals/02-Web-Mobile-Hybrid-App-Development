@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import TextField from "./components/TextField";
 
 class App extends React.Component {
   render() {
@@ -10,9 +11,16 @@ class App extends React.Component {
         <Header />
 
         <div className="main">
+          <br />
+          <br />
           <button type="button" class="btn btn-success">
             Success
           </button>
+          <br />
+          <TextField />
+
+          <br />
+
           <h1>Main Component</h1>
         </div>
         <img src="is.jpg" alt="car iamge" />
