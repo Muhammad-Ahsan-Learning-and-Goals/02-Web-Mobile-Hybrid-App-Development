@@ -7,7 +7,10 @@ import TextField from "./components/TextField";
 class App extends React.Component {
   constructor() {
     super();
-    // this.state;
+    // this.state={
+    //   name:"Muhammad Ahsan"
+    //   email:"Muhammadahsan7099@gmail.com"
+    // }
   }
 
   render() {
@@ -30,7 +33,7 @@ class App extends React.Component {
           <h1>Main Component</h1>
           <br />
 
-          <input type="text"  placeholder="Enter Your Name"/>
+          <input type="text" placeholder="Enter Your Name" id="val" />
         </div>
         <br />
         <br />
