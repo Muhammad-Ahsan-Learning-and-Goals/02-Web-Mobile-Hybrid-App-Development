@@ -1,5 +1,5 @@
 import React from "react";
-import Logoimg from "../images/navlogo.jpg";
+import Logoimg from "../images/navogo.png";
 
 // exports default class Header extends React.Component
 
@@ -55,7 +55,7 @@ class Logo extends React.Component {
   render() {
     return (
       <div>
-        <img src={Logoimg} alt=" car image" width="50" />
+        <img src={Logoimg} alt=" car image" width="120" />
         {/* <h1> Logo Component </h1> */}
       </div>
     );
