@@ -30,9 +30,18 @@ class App extends React.Component {
   }
 }
 
+// Add Another New Component
 
-
-
+class Logo extends React.Component {
+  render() {
+    return (
+      <div>
+        {/* <img src="" alt="" /> */}
+        <h1> Logo Components </h1>
+      </div>
+    );
+  }
+}
 
 // function App() {
 //   return (
