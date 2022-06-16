@@ -17,7 +17,7 @@ class App extends React.Component {
             Success
           </button>
 
-          <Logo />
+      
           <br />
           <TextField />
 

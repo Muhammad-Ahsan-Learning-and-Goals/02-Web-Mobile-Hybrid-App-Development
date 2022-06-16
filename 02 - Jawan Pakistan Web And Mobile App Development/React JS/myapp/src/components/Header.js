@@ -8,7 +8,7 @@ class Header extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
-          Navbar
+          <Logo />
         </a>
         <button
           className="navbar-toggler"
@@ -55,7 +55,7 @@ class Logo extends React.Component {
   render() {
     return (
       <div>
-        <img src={Logoimg} alt=" car image" />
+        <img src={Logoimg} alt=" car image" width="50" />
         {/* <h1> Logo Component </h1> */}
       </div>
     );
