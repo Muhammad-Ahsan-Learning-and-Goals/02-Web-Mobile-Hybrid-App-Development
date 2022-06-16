@@ -5,49 +5,35 @@ import Footer from "./components/Footer";
 import TextField from "./components/TextField";
 
 class App extends React.Component {
+  constructor() {
+    super();
+    // this.state;
+  }
 
+  render() {
+    return (
+      <div>
+        <Header />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-//   render() {
-//     return (
-//       <div>
-//         <Header />
-
-
-
-
-
-
-         <div className="main">
+        <div className="main">
           <br />
           <br />
           <button type="button" class="btn btn-success">
             Success
           </button>
 
-      
           <br />
           <TextField />
 
           <br />
 
           <h1>Main Component</h1>
+          <br />
+
+          <input type="text"  placeholder="Enter Your Name"/>
         </div>
+        <br />
+        <br />
         {/* <img src="is.jpg" alt="car iamge" /> */}
         <Footer />
       </div>
