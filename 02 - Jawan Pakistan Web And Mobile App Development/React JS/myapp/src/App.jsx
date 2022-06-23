@@ -14,12 +14,16 @@ class App extends React.Component {
     };
   }
 
+  set_name = () => {
+    console.log(this.state.name);
+  };
   render() {
     return (
       <div>
         <Header />
 
-        <h2>{this.state.name} </h2>
+        <h2>My Name is {this.state.name} </h2>
+        <h4>Email:{this.state.email}</h4>
 
         <div className="main">
           <br />
@@ -39,6 +43,8 @@ class App extends React.Component {
           <br />
 
           <input type="text" placeholder="Enter Your Name" id="val" />
+
+          <button onClick={this.set_name}> Set Name</button>
         </div>
         <br />
         <br />
