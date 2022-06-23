@@ -14,9 +14,18 @@ class App extends React.Component {
     };
   }
 
+
+
   set_name = () => {
-    console.log(this.state.name);
+    this.setState({
+      name:"Ali"
+    })
   };
+
+  get_name = () => {
+    console.log(this.state.get_name);
+  };
+
   render() {
     return (
       <div>
@@ -45,6 +54,8 @@ class App extends React.Component {
           <input type="text" placeholder="Enter Your Name" id="val" />
 
           <button onClick={this.set_name}> Set Name</button>
+
+          <button onClick={this.get_name}> Get Name</button>
         </div>
         <br />
         <br />
