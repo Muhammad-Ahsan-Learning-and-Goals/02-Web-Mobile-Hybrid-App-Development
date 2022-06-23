@@ -6,7 +6,7 @@ import TextField from "./components/TextField";
 
 class App extends React.Component {
   constructor() {
-    super();
+    super(); 
     this.state = {
       name: "Muhammad Ahsan",
       email: "Muhammadahsan7099@gmail.com",
@@ -26,7 +26,7 @@ class App extends React.Component {
     console.log(this.state.get_name);
   };
 
-  render() {
+  render() { 
     return (
       <div>
         <Header />
