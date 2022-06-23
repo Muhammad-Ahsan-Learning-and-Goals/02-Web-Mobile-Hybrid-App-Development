@@ -10,6 +10,7 @@ class App extends React.Component {
     this.state = {
       name: "Muhammad Ahsan",
       email: "Muhammadahsan7099@gmail.com",
+      age: "23",
     };
   }
 
@@ -18,7 +19,7 @@ class App extends React.Component {
       <div>
         <Header />
 
-        <h2>(this.state.name) </h2>
+        <h2>{this.state.name} </h2>
 
         <div className="main">
           <br />
