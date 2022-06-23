@@ -17,7 +17,6 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        <Logo />
 
         <h2>(this.state.name) </h2>
 
@@ -32,6 +31,8 @@ class App extends React.Component {
           <TextField />
 
           <br />
+
+          <Logo />
 
           <h1>Main Component</h1>
           <br />
