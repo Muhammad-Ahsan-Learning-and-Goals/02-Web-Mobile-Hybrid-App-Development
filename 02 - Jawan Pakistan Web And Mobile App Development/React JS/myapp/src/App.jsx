@@ -27,8 +27,11 @@ class App extends React.Component {
     console.log(this.state.get_name);
   };
 
+ 
+
   handleChange(e) {
-    console.log(e.target);
+    console.log(e.target.value);
+    console.log(e.target.name);
   }
 
   render() {
