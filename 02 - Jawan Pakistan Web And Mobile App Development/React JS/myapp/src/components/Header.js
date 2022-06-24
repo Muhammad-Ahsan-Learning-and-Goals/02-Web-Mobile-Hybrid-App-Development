@@ -9,7 +9,7 @@ class Header extends React.Component {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
           <Logo /> Home
-        </a
+        </a>
         <button
           className="navbar-toggler"
           type="button"
