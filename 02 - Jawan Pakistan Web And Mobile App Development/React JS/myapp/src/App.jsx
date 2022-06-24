@@ -6,27 +6,32 @@ import TextField from "./components/TextField";
 
 class App extends React.Component {
   constructor() {
-    super(); 
+    super();
     this.state = {
       name: "Muhammad Ahsan",
       email: "Muhammadahsan7099@gmail.com",
       age: "23",
+      value: "",
     };
   }
 
-
-
   set_name = () => {
     this.setState({
-      name:"Ali"
-    })
+      // name: "Ali",
+
+      name: this.state.value,
+    });
   };
 
   get_name = () => {
     console.log(this.state.get_name);
   };
 
-  render() { 
+  handleChange(e) {
+    console.log(e.target);
+  }
+
+  render() {
     return (
       <div>
         <Header />
@@ -51,7 +56,24 @@ class App extends React.Component {
           <h1>Main Component</h1>
           <br />
 
-          <input type="text" placeholder="Enter Your Name" id="val" />
+          <input
+            // onChange={(e) => console.log(e.target.value)}
+
+            onChange={(e) => this.setState({ value: e.target.value })}
+            type="text"
+            placeholder="Enter Your Name"
+            id="val"
+          />
+
+          <input
+            name="email"
+            // onChange={(e) => console.log(e.target.value)}
+
+            onChange={(e) => this.handleChange(e)({ value: e.target.value })}
+            type="text"
+            placeholder="Enter Your Name"
+            id="val"
+          />
 
           <button onClick={this.set_name}> Set Name</button>
 
