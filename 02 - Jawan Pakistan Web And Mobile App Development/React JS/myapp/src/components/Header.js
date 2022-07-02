@@ -49,7 +49,7 @@ class Header extends React.Component {
     );
   }
 }
-// Add Another New Component
+// Add Another New Components
 
 class Logo extends React.Component {
   render() {
