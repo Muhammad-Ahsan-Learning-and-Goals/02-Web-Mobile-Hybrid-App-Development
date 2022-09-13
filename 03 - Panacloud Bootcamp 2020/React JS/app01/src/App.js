@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <h2> This is main Page</h2>
 
-      <Dinner dishName=" Sabzi" sweet=" Kheer" />
+      <Dinner dishName=" Sabzi" sweet=" Kheer" drink=" Lassi" />
     </div>
   );
 }

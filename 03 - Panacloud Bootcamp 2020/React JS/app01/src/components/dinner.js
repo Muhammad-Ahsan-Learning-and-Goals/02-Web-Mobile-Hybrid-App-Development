@@ -1,14 +1,19 @@
 import React from "react";
 
 function Dinner(props){
-  return (
+return (
     <div>
     
-      <h3>Today We are Serving{props.dishName}</h3>
+    <h3>Today We are Serving{props.dishName}</h3>
 
-      <hr />
+    <hr />
 
-      <h3>Today We are Serving{props.sweet}</h3>
+    <h3>Today We are Serving{props.sweet}</h3>
+
+    <hr/>
+
+    <h3>Today We are Serving{props.drink}</h3>
+
     </div>
   );
 }
