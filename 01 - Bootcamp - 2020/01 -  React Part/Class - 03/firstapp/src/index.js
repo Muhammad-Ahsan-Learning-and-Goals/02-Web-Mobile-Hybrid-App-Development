@@ -8,6 +8,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// make a component
+
+let names = (
+  <name>
+    <h3> Muhammad Ahsan</h3>
+    <h3> Ali Raza</h3>
+    <h4> Raza</h4>
+  </name>
+);
+
 // JSX element, header
 const header = (
   <header>
@@ -45,6 +55,7 @@ const app = (
     {header}
     {main}
     {footer}
+    {names}
   </div>
 );
 
