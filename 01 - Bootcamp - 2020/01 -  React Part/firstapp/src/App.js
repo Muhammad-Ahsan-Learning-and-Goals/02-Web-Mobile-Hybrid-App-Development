@@ -1,12 +1,20 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Dinner from "./components/dinner.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World </h1>,
-      </header>
+      
+      <Dinner dishName="Mutton" sweetDish="Halwa" />
+
+      <hr />
+
+      <Dinner dishName="Pallao" sweetDish="Kheer" />
+
+      <hr />
+
+      <Dinner dishName="gost" sweetDish="sweet" />
     </div>
   );
 }
