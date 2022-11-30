@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Dinner from "./components/dinner.js";
+import App1 from "./components/class3part2";
 
 function App() {
   return (
     <div className="App">
-      
-      <Dinner dishName="Mutton" sweetDish="Halwa" />
+      {/* <Dinner dishName="Mutton" sweetDish="Halwa" />
 
       <hr />
 
@@ -14,7 +14,10 @@ function App() {
 
       <hr />
 
-      <Dinner dishName="gost" sweetDish="sweet" />
+      <Dinner dishName="gost" sweetDish="sweet" /> */}
+
+      <App1 />
+      
     </div>
   );
 }
