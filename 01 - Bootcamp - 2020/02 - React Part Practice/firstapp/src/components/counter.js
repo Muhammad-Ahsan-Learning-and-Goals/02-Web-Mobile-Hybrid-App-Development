@@ -14,15 +14,23 @@
 
 //Pracice 02
 
-// import React, { useState } from "react";
-// function Counter() {
-//   let [count, setCount] = useState(1);
-//   return (
-//     <>
-//       <h1> The value is {count}:</h1>
-//       <button onClick={() => setCount(count + 2)}> Update Counter</button>
-//     </>
-//   );
-// }
+import React, { useState } from "react";
+function Counter() {
+  let [count, setCount] = useState(1);
 
-// export default Counter;
+  let [isMorning, setMorning] = useState(true);
+  return (
+    <>
+      <div className={`box ${isMorning ? `dayLight` : " "}`}>
+        <h2>Have A Good {isMorning ? "Morning" : "Night"}</h2>
+
+        <h1> The value is {count}:</h1>
+        <button onClick={() => setCount(count + 2)}> Update Counter</button>
+        <button onClick={() => setMorning(!isMorning)}>
+          Have a Good Morning
+        </button>
+      </div>
+    </>
+  );
+}
+export default Counter;

@@ -8,7 +8,7 @@ import Message from "./components/messagePass";
 
 function App() {
   let [count, setCount] = useState(1);
-  
+
   let [isMorning, setMorning] = useState(true);
 
   return (
@@ -24,13 +24,15 @@ function App() {
     //   <Dinner dishName="gost" sweetDish="sweet" />
 
     <div className={`box ${isMorning ? `dayLight` : " "}`}>
-      <h2>Have A Good  {isMorning ? "Morning" : "Night"}</h2>
+      <h2>Have A Good {isMorning ? "Morning" : "Night"}</h2>
 
       <Message counter={count} />
       <br />
       <button onClick={() => setCount(count + 1)}>Update Counter</button>
 
-      <button onClick={() => setMorning(!isMorning)}>Have a Good Morning</button>
+      <button onClick={() => setMorning(!isMorning)}>
+        Have a Good Morning
+      </button>
     </div>
   );
 }
