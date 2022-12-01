@@ -5,7 +5,8 @@ import "./App.css";
 import Dinner from "./components/dinner.js";
 import App1 from "./components/class3part2";
 import Message from "./components/messagePass";
-import Parent from "./components/class 5/parents";
+import Parent from "./components/class 5/Parent";
+import counterContext from "./components/class 5/CounterContext";
 
 function App() {
   let [count, setCount] = useState(1);
@@ -40,9 +41,11 @@ function App() {
 
     //💚 Class 05
 
-    <div>
-      <Parent />
-    </div>
+    <counterContext.Provider value={10}>
+      <div>
+        <Parent/>
+      </div>
+    </counterContext.Provider>
   );
 }
 
