@@ -1,10 +1,11 @@
-import React, { useState, isMorning, Morning, Night } from "react";
+import React, { useState } from "react";
 
 import logo from "./logo.svg";
 import "./App.css";
 import Dinner from "./components/dinner.js";
 import App1 from "./components/class3part2";
 import Message from "./components/messagePass";
+import Parent from "./components/class 5/parents";
 
 function App() {
   let [count, setCount] = useState(1);
@@ -23,16 +24,24 @@ function App() {
 
     //   <Dinner dishName="gost" sweetDish="sweet" />
 
-    <div className={`box ${isMorning ? `dayLight` : " "}`}>
-      <h2>Have A Good {isMorning ? "Morning" : "Night"}</h2>
+    // 💚 counter and morning night theeme
 
-      <Message counter={count} />
-      <br />
-      <button onClick={() => setCount(count + 1)}>Update Counter</button>
+    // <div className={`box ${isMorning ? `dayLight` : " "}`}>
+    //   <h2>Have A Good {isMorning ? "Morning" : "Night"}</h2>
 
-      <button onClick={() => setMorning(!isMorning)}>
-        Have a Good Morning
-      </button>
+    //   <Message counter={count} />
+    //   <br />
+    //   <button onClick={() => setCount(count + 1)}>Update Counter</button>
+
+    //   <button onClick={() => setMorning(!isMorning)}>
+    //     Have a Good Morning
+    //   </button>
+    // </div>
+
+    //💚 Class 05
+
+    <div>
+      <Parent />
     </div>
   );
 }
