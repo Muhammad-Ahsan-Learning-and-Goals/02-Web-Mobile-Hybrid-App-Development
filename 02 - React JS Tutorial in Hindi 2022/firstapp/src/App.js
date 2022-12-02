@@ -8,7 +8,7 @@ function App() {
     <>
       {/* <Challenge /> */}
 
-      <Challenge3 />
+      {/* <Challenge3 /> */}
     </>
   );
 }
