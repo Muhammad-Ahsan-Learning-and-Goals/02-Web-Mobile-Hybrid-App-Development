@@ -1,0 +1,125 @@
+:root{
+    --primary-color:orange;
+    --secondry-color:gray;
+    --se:red;
+}
+
+
+/* ul{
+list-style-type:circle;
+list-style-position:inside;
+
+}
+li{
+border: 2px solid red;
+}
+ol{
+
+list-style-type: none;
+
+} */
+
+/* table{
+border: 3px solid green;
+border-collapse: collapse ;
+height: 150px;
+}
+
+td{
+    border: 3px solid red;
+    pad: 5px;
+}
+th{
+    border: 3px solid black;
+} */
+
+/* #div1{
+    background-color:var(--se); 
+    
+    width: 600px; 
+    height: 200px;
+
+}
+
+#div2{
+    background-color: pink;
+    width: 600px; 
+    height: 200px;
+    
+} */
+
+/* Pseudo Classes-->
+Selector:class
+ */
+
+/* li:first-child{
+    color: red ;
+}
+
+li:last-child{
+    color:blue;
+} 
+
+li:nth-child(1){
+
+    color:green;
+}
+
+li:nth-child(2n+0){
+
+    color:purple;
+} */
+
+/* Psudo element Selector:: element name (property */
+/* 
+document=document.getelEmentById('h1')
+
+heading.style()
+h1::before{ 
+    content:"added before" ;
+}
+::selection{
+    color: red;
+    background-color: yellowgreen;
+}
+
+p::first-line{
+    font-size: 40px;
+}
+
+p::first-letter{
+    font-size: 40px;
+}  */
+
+/* h1{
+    color: red;
+}
+
+h2{
+ color: green;
+}
+
+h3{
+color: inherit;
+}
+
+h4{
+color: initial;  
+} */
+
+/* #div1{
+    background-color:yellow;
+    width: 600px;
+    height: 200px;
+
+}
+
+#div2{
+    background-color:green;
+    width: 600px;
+    height: 200px;
+    border: 10px solid black;
+    padding: 35px;
+    box-sizing: border-box;
+
+} */

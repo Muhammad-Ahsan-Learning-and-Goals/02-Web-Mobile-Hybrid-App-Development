@@ -1,0 +1,62 @@
+/* .paragraph1{
+    border: 2px solid red;
+    /*padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 15px; 
+    padding: 5px 5px 10px 15px;
+
+
+} */
+
+/* margin property --> colapsable*/
+/* 
+.paragraph1{
+    border: 3px solid red;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 15px; 
+    margin: 10px 20px 20px 20px; 
+     
+
+} 
+
+.paragraph2{
+    border: 5px solid red;
+    margin-bottom: 40px ;
+     
+} 
+
+.paragraph3{
+    border: 5px solid red;
+} */
+
+/* a{
+    text-decoration: none;
+
+}
+
+a:link{
+  color: black;
+}
+a:active{
+    color: blue;
+}
+a:hover{ 
+ color:yellow;
+}
+a:visited{
+    color: purple;
+} */
+
+/* #cursor{
+    border: 2px solid red;
+    cursor:grab;
+} */
+
+/* Presendance
+inline syle
+id
+class
+tag name !important */
