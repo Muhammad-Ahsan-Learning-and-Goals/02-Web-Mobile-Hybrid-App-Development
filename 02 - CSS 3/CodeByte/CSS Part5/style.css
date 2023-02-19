@@ -1,0 +1,135 @@
+/* CSS Displys 
+
+1-Block
+
+div
+p
+h1-h6
+--> properties
+i- start from new line
+ii- we can give width and height
+
+2-inline block-->no default method
+
+give width and height can be given
+
+3- inline
+span
+li
+
+-->properties
+i- start from same line
+ii- we can't give width and height
+
+4-none
+remove any element from screen
+*/
+
+/* #div1{
+border: 2px solid red;
+width: 300px;
+height:400px;
+ display: inline-block;
+display: inline;
+}
+
+#div2{
+ border: 2px solid green;
+ display: none;  */
+ /* is m element load ni ho ga backend sy */
+
+ /* visibility:hidden 
+ (front sy gaib hota h  but page p load hota ha
+ 
+}*/
+
+/* CSS Position 
+
+1- static (Default)
+2- Relative
+3- absolute
+4- fixed
+
+
+properties applied only last three
+
+1-left
+2-right
+3-top
+4-bottom
+ 
+*/
+
+
+/* #parent{ 
+     Positional Element 
+    border: 2px solid red;
+    width: 500px;
+    padding: 100px ;
+    margin: 25px 30px;
+    position: relative;
+
+
+}
+
+#div1{
+     background-color: red;
+     height: 100px; 
+     width: 100px;
+     display: inline-block;
+
+
+}
+
+#div3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+#div2{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+     
+} */
+
+/* 
+#div1{
+    background-color:green;
+    width: 70%;
+    height: 100px;
+    float: left;
+}
+#div2{
+    background-color: purple;
+    width: 30%;
+    float: left;
+    height: 100px;
+} */
+
+
+/* @media screen and (max-width:360px){
+#div1{
+        width: 50%;
+    }
+#div2{
+        width: 50%;
+    }
+}
+    */
+/* @media screen and (max-width:768px){
+    #div1{
+            width: 60%;
+        }
+    #div2{
+            width: 40%;
+        }
+    } */
+      
+
+
