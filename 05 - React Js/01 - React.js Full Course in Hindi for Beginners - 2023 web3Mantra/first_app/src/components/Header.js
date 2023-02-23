@@ -65,5 +65,5 @@ class Header extends React.Component {
     );
   }
 }
-export default Header;
+export { Header, Logo };
 // hm class k sath bi export default
