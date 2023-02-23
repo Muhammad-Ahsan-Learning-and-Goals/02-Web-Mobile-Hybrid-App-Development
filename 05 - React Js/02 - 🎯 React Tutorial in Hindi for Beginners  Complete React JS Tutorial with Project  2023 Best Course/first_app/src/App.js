@@ -1,11 +1,12 @@
 import "./App.css";
 
+import ExpenseItem from "./components/ExpenseItem";
+
 function App() {
   return (
-    <div className="cotainer1">
-      <h3 className="cotainer2"> First component </h3>
-      <p className="cotainer3"> This is Pargraph Tag</p>
-
+    <div>
+      <h2> Lets Get Strted</h2>
+      <ExpenseItem />
     </div>
   );
 }
