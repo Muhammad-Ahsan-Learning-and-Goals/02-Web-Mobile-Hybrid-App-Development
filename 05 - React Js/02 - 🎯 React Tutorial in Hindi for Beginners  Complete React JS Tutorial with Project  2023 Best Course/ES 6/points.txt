@@ -1,8 +1,0 @@
-// 
-
-Refrance (Array , Onject) and Permitive types (string, number)
-
-
-Refrance Type m Copy ni hota bulky Assign hp jata ha
-
-
