@@ -1,6 +1,6 @@
-// import "./App.css";
+import "./App.css";
 
-import ExpenseItem from './components/ExpenseItem';
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   let expenseDate = new Date(2023, 2, 13);
@@ -13,9 +13,8 @@ function App() {
       <ExpenseItem
         date={expenseDate}
         title={expenseTitle}
-        amount={expenseAmount}>
-
-      </ExpenseItem>
+        amount={expenseAmount}
+      ></ExpenseItem>
     </div>
   );
 }
