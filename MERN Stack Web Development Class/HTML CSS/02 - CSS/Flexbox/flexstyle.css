@@ -17,18 +17,33 @@ nav > ul {
   list-style: none;
 }
 
-nav > ul>li {
+nav > ul > li {
   padding: 10px 30px;
   background-color: white;
   margin: 10px;
   border-radius: 10px;
   border: 4px solid rgb(163, 44, 44);
 }
+@media screen and (max-width: 600px) {
+  nav > ul > li {
+    padding: 10px 10px;
+    margin: 0px 3px;
+  }
+}
 
+section {
+  background-color: blueviolet;
+  margin-top: 10px;
+  display: flex;
+  padding: 15px;
+}
 
-section{
-
-    background-color: blueviolet;
-    margin-top: 10px;
-    display: flex;
+.section-right {
+  margin-left: 10px;
+  max-width: 250px;
+}
+@media screen and (max-width: 600px) {
+  .section-right {
+    display: none;
+  }
 }
