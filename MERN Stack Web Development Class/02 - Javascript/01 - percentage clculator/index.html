@@ -10,7 +10,7 @@
 
     <h3>Percenatge calculator</h3>
 
-    <form onsubmit = "calculate();false">
+    <form onsubmit = "calculate(); return false;">
       <label for="totalMarks">Total Marks</label>
 
       <input type="number" id="totalMarks"  min="1" required
@@ -30,6 +30,7 @@
 
 
     </form>
+    <h2 id="result"></h2>
 
     <script>
       function calculate() {
@@ -37,9 +38,11 @@
 
         let obtainedMarks = document.querySelector("#obtainedMarks").value;
 
-        let percentage = (obtainedMarks / totalMarks) * 100;
+        let result = (obtainedMarks / totalMarks) * 100;
         
-        alert(percentage + " % ")
+        // alert(result + " % ")
+
+        document.querySelector('#result').innerHTML = " you have got :  "  + result + " % " ;
 
       }
     </script>
