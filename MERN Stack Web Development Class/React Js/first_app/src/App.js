@@ -4,7 +4,14 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h3> Hello </h3>
+        <ul className="nav">
+          
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our services</li>
+          <li>Contact Us</li>
+
+        </ul>
       </div>
     </div>
   );

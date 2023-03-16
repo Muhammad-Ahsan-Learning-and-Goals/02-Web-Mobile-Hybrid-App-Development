@@ -3,12 +3,13 @@
 
 // hositing
 
-console.log(sumTwoNumbers(10, 5));
 
-function sumTwoNumbers(num1, num2) {
-  let result = num1 + num2;
-  return result;
-}
+
+// function sumTwoNumbers(num1, num2) {
+//   let result = num1 + num2;
+//   console.log(sumTwoNumbers(10, 5));
+//   return result;
+// }
 
 
 
