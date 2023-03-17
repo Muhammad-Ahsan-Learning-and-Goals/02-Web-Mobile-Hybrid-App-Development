@@ -25,10 +25,16 @@ console.log(random.indexOf(54));
 
 // 💥💥 splice
 
-let newArray = ["ali", "Raza", "java"];
+let newArray = ["ali", "Raza", "java","MuhammadAhsan",];
 
 newArray.splice(2, 0, "Muhammad Ahsan");
 
 console.log(newArray);
 
+// 💥💥 Filter Method
 
+const filter = newArray.filter(word => word.lenght >= 4);
+console.log(filter);
+
+
+// f
