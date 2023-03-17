@@ -30,3 +30,5 @@ let newArray = ["ali", "Raza", "java"];
 newArray.splice(2, 0, "Muhammad Ahsan");
 
 console.log(newArray);
+
+
