@@ -13,7 +13,7 @@ const PropConcept = ({ myName, age }) => {
 };
 
 PropConcept.prototype = {
-  name: propTypes.string,
+  name: propTypes.number,
   age: propTypes.number,
 };
 
