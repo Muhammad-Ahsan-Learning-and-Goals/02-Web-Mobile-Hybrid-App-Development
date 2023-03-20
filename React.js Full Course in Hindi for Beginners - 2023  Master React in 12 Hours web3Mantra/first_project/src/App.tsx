@@ -11,6 +11,14 @@ function App() {
 
         <PropConcept myName="Muhammad Ahsan (props) " />
         <PropConcept age="Age : 23" />
+        
+        <br />
+        <PropConcept myName="Ali Raza (props) " />
+        <PropConcept age="Age : 24" />
+
+        <br />
+        <PropConcept myName="Ali (props) " />
+        <PropConcept age="Age : 26" />
 
         <Footer />
       </div>
