@@ -1,16 +1,19 @@
 import React from "react";
 import "./App.css";
-import { Header } from "./components/Header";
+import { Header, Headr } from "./components/Header";
 import PropConcept from "./components/PropConcept";
 import { Footer, MovieApp } from "./components/MovieApp";
 import movies from "./components/MovieApp.json";
 
 function App() {
   return (
-    <div className="movApp">
+
+    <div>
       <Header />
-      <h2>Movie App</h2>
-      <div />
+
+      <Headr />
+
+      
       <div className="main">
         {movies.map((element, index) => {
           return (
@@ -23,6 +26,7 @@ function App() {
           );
         })}
       </div>
+
       <Footer />;
     </div>
   );

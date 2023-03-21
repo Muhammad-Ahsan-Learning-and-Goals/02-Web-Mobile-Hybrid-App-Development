@@ -21,5 +21,13 @@ function Header() {
   );
 }
 
+function Headr() {
+  return (
+    <div className="movApp">
+      <h2>Movie App</h2>
+      <div />
+    </div>
+  );
+}
 
-export { Header,};
+export { Header, Headr };
