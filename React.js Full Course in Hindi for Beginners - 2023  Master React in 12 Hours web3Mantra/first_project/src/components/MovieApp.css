@@ -1,3 +1,4 @@
+
 .movApp {
   text-align: center;
 }
@@ -17,8 +18,26 @@
 
 .main1 {
   text-align: start;
-  background-color: black;
+  background-color: lightslategray;
   border: 10px solid palevioletred;
   padding: 5px;
   font-weight: bold;
+  width: 20%;
+  margin-top: 15px;
+}
+.main1 > img {
+  width: 250px;
+  height: 200px;
+}
+
+
+.footer{
+
+    background-color:brown;
+    padding: 20px;
+
+}
+
+.footer > h2 > a{
+    color: yellow;
 }

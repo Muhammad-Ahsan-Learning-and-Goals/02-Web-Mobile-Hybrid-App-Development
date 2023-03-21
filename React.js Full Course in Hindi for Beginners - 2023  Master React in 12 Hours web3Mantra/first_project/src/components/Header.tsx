@@ -21,11 +21,5 @@ function Header() {
   );
 }
 
-function Footer() {
-  return (
-    <div className="footer">
-      <h2> Footer copywrite @2023</h2>
-    </div>
-  );
-}
-export { Header, Footer };
+
+export { Header,};
