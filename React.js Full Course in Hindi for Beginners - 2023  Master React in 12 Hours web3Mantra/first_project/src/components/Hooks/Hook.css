@@ -1,6 +1,7 @@
-.hok{
-    background-color: brown;
-    text-align: center;
-    padding: 15px;
-
+.hook1 {
+  background-color: brown;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }

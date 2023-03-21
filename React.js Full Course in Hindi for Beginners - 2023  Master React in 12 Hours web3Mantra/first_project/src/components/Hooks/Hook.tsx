@@ -2,8 +2,10 @@ import "./Hook.css";
 
 function Hook() {
   return (
-      <div className="hok">
-       Hooks in React js
+    <div className="hook1">
+
+      <h3>Hooks in React js</h3>
+
     </div>
   );
 };
