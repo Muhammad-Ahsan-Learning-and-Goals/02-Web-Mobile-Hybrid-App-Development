@@ -8,9 +8,17 @@
   padding: 20px;
 }
 
-.main1{
-    text-align: center;
-    background-color: gray       ;
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px;
+}
 
-
+.main1 {
+  text-align: start;
+  background-color: black;
+  border: 10px solid palevioletred;
+  padding: 5px;
+  font-weight: bold;
 }

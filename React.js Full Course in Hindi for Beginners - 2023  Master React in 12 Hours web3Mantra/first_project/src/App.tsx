@@ -3,19 +3,28 @@ import "./App.css";
 import { Header, Footer } from "./components/Header";
 import PropConcept from "./components/PropConcept";
 import MovieApp from "./components/MovieApp";
+import Movies from  './components/MovieApp.json'; 
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-
-      {/* <Footer /> */}
-
-      <div className="MovieApp">
-        <MovieApp />
-        
+      <div className="movApp">
+        <h2>Movie App</h2>
       </div>
-    </div>
+
+      <div>
+        {/* <Footer /> */}
+
+        <div className="main">
+          <MovieApp />
+          <MovieApp />
+          <MovieApp />
+          <MovieApp />
+          <MovieApp />
+        </div>
+      </div>
+    </>
   );
 }
 
