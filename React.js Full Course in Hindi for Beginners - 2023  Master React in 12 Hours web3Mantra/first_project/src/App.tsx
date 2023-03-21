@@ -3,28 +3,31 @@ import "./App.css";
 import { Header, Footer } from "./components/Header";
 import PropConcept from "./components/PropConcept";
 import MovieApp from "./components/MovieApp";
-import Movies from  './components/MovieApp.json'; 
+import movies from "./components/MovieApp.json";
 
 function App() {
   return (
-    <>
-      <Header />
+    
       <div className="movApp">
         <h2>Movie App</h2>
-      </div>
 
-      <div>
+        <div />
+            <Header/>
         {/* <Footer /> */}
 
         <div className="main">
-          <MovieApp />
-          <MovieApp />
-          <MovieApp />
-          <MovieApp />
-          <MovieApp />
+          {
+          movies.map((element) => {
+            return(
+            <MovieApp
+              title={element.title}
+              year={element.Year}
+              img={element.Poster}
+            />
+          )})
+          }
         </div>
       </div>
-    </>
   );
 }
 
