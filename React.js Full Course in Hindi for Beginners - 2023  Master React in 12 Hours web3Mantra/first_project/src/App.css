@@ -1,7 +1,29 @@
 body {
   background-color: gray;
   color: white;
+  
 }
+
+.movApp {
+  text-align: center;
+}
+
+.movApp >h2 {
+   margin: 0px;
+   background-color: brown;
+   padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 div > ul {
   display: flex;
@@ -9,7 +31,6 @@ div > ul {
   justify-content: center;
   background-color: Brown;
   padding: 20px;
-
 }
 
 div > ul > li {

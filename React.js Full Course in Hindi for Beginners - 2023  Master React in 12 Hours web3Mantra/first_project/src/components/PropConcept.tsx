@@ -13,8 +13,11 @@ const PropConcept = ({ myName, age }) => {
 };
 
 PropConcept.prototype = {
-  name: propTypes.number,
+  myName: propTypes.string,
   age: propTypes.number,
 };
-
+// PropConcept.defaultprops = {
+//   myName: "Name",
+//   age: 0,
+// };
 export default PropConcept;

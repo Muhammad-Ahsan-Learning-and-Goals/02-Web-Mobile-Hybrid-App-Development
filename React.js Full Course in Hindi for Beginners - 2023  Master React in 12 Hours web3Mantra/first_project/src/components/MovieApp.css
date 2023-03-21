@@ -1,0 +1,15 @@
+.movApp {
+  text-align: center;
+}
+
+.movApp > h2 {
+  margin: 0px;
+  background-color: brown;
+  padding: 20px;
+}
+
+.main1{
+    text-align: center;
+
+
+}

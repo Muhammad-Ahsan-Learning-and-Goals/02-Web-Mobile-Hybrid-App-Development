@@ -2,27 +2,20 @@ import React from "react";
 import "./App.css";
 import { Header, Footer } from "./components/Header";
 import PropConcept from "./components/PropConcept";
+import MovieApp from "./components/MovieApp";
 
 function App() {
   return (
-    <>
-      <div>
-        <Header />
+    <div>
+      <Header />
 
-        <PropConcept myName="Muhammad Ahsan (props) " />
-        <PropConcept age="Age : 23" />
+      {/* <Footer /> */}
+
+      <div className="MovieApp">
+        <MovieApp />
         
-        <br />
-        <PropConcept myName="Ali Raza (props) " />
-        <PropConcept age="Age : 24" />
-
-        <br />
-        <PropConcept myName="Ali (props) " />
-        <PropConcept age="Age : 26" />
-
-        <Footer />
       </div>
-    </>
+    </div>
   );
 }
 
