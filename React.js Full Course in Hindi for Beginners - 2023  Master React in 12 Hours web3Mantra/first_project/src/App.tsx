@@ -11,11 +11,11 @@ function App() {
       <Header />
       <h2>Movie App</h2>
       <div />
-
       <div className="main">
-        {movies.map((element , index) => {
+        {movies.map((element, index) => {
           return (
             <MovieApp
+              key={index}
               year={element.Year}
               title={element.Title}
               img={element.Poster}
@@ -23,9 +23,7 @@ function App() {
           );
         })}
       </div>
-
       <Footer />;
-    
     </div>
   );
 }
