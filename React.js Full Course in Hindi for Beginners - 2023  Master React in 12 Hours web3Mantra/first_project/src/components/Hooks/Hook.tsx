@@ -1,20 +1,38 @@
+import { func } from "prop-types";
 import "./Hook.css";
 import React, { useState } from "react";
 
 function Hook() {
 
-  const
+  // 🌟🌟 num is initial value
+
+  // setNum is value to set
+
+  const [num, setNum] = useState(1);
+
+  //🌟 make two function and call them on button
+  function inc() {
+    setNum(num + 2);
+  }
+  function dec() {
+    setNum(num - 2);
+  }
+
   return (
     <div>
       <div className="hook1">
-        <h3>Hooks in React js</h3>
+        <h1>Hooks in React js</h1>
       </div>
 
       <div className="hook2">
-        <h2> USEState Hook</h2>
-        <h2 className="heading1">1</h2>
-        <button className="btn"> Increment</button>
-        <button className="btn">Decrement</button>
+        <h2 className="head1"> Counter App with USEState Hook</h2>
+        <h2 className="heading1">{num}</h2>
+        <button className="btn" onClick={inc}>
+          Increment
+        </button>
+        <button className="btn" onClick={dec}>
+          Decrement
+        </button>
       </div>
     </div>
   );
