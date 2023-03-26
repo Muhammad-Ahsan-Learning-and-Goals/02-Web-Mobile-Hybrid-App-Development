@@ -32,9 +32,22 @@ fname("ALI", "Good Morning");
 
 // 🌟🌟 function can also return values
 
-const farea = function (radius) {
-  let area = 3.14 * radius ** 2;
-  return area
+const calAreaA = function (radius) {
+  // let area = 3.14 * radius ** 2;
+  // return area
+
+  return 3.14 * radius ** 2;
 };
-const area = farea(4);
+const area = calAreaA(4);
 console.log(area);
+
+// 🌟🌟  Arrow Function
+
+// name = (parameter) =>{function body}
+
+const calAreaB = (radius) => 3.4 * radius ** 3;
+console.log(calAreaB(3));
+
+const greeArrow = () => console.log("Hello World");
+
+greeArrow();
