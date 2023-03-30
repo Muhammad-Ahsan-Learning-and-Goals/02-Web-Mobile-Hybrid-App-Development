@@ -1,0 +1,10 @@
+.child1 {
+  background-color: brown;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}

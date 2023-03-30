@@ -1,0 +1,11 @@
+Why we use npm in React"
+
+alternative of npm is yarn
+
+
+types of components
+
+Functional Components
+Class Components
+Pure Components
+Higher-Order Components

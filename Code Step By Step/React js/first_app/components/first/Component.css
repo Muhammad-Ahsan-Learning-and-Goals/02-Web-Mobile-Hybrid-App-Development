@@ -1,0 +1,13 @@
+.flex1{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.styl > h2{
+    color: red;
+    text-align: center;
+    
+}
