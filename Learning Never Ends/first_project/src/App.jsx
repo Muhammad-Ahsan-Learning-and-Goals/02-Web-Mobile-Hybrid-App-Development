@@ -8,8 +8,8 @@ function App() {
       <div>
         <h2 className="App">Main App Component</h2>
       </div>
-      
-      <App1/>
+
+      <App1 />
 
       <div>
         <Propss name="Ahsan" age="23" class=" React Bootcamp" />
