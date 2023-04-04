@@ -4,32 +4,37 @@ import "./App1.css";
 let a = 10;
 let result = "";
 
-if (a > 50) {
-
-  result = "True";
+if (a < 50) {
+    result = "True";
 } else {
-  result = "False";
+    result = "False";
 }
 
 const App1 = () => {
-  return (
-    <>
-      <div>
-        <h4 className="App1"> App1 Sub Component</h4>
-        <br />
+    return (
+        <>
+            <div>
+                <h4 className="App1"> App1 Sub Component</h4>
 
-        {result}
+                {result}
+                {/* 🌟🌟 Ternrary oprator */}
 
-        {/* 🌟🌟 Ternrary oprator */}
-
-        <h2> {(a > 5) ? 'Agree' :'Disagree'}</h2>
-
-
-        
-      
-      </div>
-    </>
-  );
+                <h2> {a > 5 ? "Agree" : "Disagree"}</h2>
+            </div>
+        </>
+    );
 };
 
-export default App1;
+function Propss(props) {
+    return (
+        <div>
+            <h3>
+                My Name is {props.name} . I Am {props.age} Years old. I am Learning
+                {props.calss}
+            </h3>
+            
+        </div>
+    );
+}
+
+export { App1, Propss };
