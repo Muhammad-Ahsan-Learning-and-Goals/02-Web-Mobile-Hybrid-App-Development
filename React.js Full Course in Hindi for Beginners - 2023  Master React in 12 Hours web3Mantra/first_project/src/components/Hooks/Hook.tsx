@@ -8,14 +8,14 @@ function Hook() {
 
   // setNum is value to set
 
-  const [num, setNum] = useState(1);
+  const [num, setNum] = useState(80);
 
   //🌟 make two function and call them on button
   function inc() {
-    setNum(num + 2);
+    setNum(num + 6);
   }
   function dec() {
-    setNum(num - 2);
+    setNum(num - 6);
   }
 
   return (

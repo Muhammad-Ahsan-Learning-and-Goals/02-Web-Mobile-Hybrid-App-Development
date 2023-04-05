@@ -7,13 +7,10 @@ import movies from "./components/MovieApp.json";
 
 function App() {
   return (
-
     <div>
       <Header />
-
+      <MovieApp />
       <Headr />
-
-      
       <div className="main">
         {movies.map((element, index) => {
           return (
@@ -26,7 +23,6 @@ function App() {
           );
         })}
       </div>
-
       <Footer />;
     </div>
   );

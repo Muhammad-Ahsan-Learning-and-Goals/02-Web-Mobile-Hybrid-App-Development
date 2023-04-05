@@ -1,5 +1,5 @@
 import React from "react";
-import { App1, Propss } from "./components/statements/App1";
+import { App1, Propss } from "./components/statements/Prptypes";
 import "./App.css";
 
 function App() {
@@ -12,9 +12,12 @@ function App() {
       <App1 />
 
       <div>
-        <Propss name="Ahsan" age="23" class=" React Bootcamp" />
-        <Propss name="Ali" age="13" class=" Angular Bootcamp" />
-        <Propss name="Raza" age="34" class=" Andriod Bootcamp" />
+        <Propss
+          fname="Ahsann"
+          age={23}
+          class=" React Bootcamp"
+          arr={[1, 2, 3]}
+        />
       </div>
     </>
   );
