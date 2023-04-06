@@ -1,10 +1,12 @@
 import React from "react";
 import JSX from "../components/import and jsx/Import";
+import Header from "../components/header/Header";
 
-const App = () => {
+function App () {
   return (
     <div>
-       <JSX />
+      {/* <JSX /> */}
+      <Header />
     </div>
   );
 };

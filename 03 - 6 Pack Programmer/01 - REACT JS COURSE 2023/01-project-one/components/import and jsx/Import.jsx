@@ -1,11 +1,13 @@
 import React from "react";
 
-const Import = (props) => {
+function Import ({name , cls , pay =10}){
   return (
-    <div>
-      < h3> Hello {props.name}</h3>
-  
-    </div>
+    <>
+      <div className={cls}>
+        {name} : ${pay}
+      </div>
+      <hr />
+    </>
   );
 };
 
@@ -14,7 +16,11 @@ const Import = (props) => {
 const JSX = () => {
   return (
     <div>
-      <Import name = "Native App" /> <Import name="SEO" /> <Import name={" Flutter"} /> <Import name={" Php Larawel"} /> <Import name="Mobile App Devlopement" />
+      <Import name={"Native App"} cls="div1" pay={200} />
+      <Import name={"SEO"} cls="div2" pay={400} />
+      <Import name={" Flutter"} cls="div3" pay={600} />
+      <Import name={" Php Larawel"} cls="div4" />
+      <Import name={"Mobile App Devlopement"} cls="div5" pay={900} />
     </div>
   );
 }
