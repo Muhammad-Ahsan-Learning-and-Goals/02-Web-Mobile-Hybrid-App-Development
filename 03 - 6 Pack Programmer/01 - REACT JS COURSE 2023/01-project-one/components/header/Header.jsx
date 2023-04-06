@@ -1,9 +1,30 @@
-import React from 'react'
+import React from "react";
 
 const Header = () => {
-  return (
-    <div>Header</div>
-  )
-}
+  // how to include css in file
+  //  inline and Internal CSS
 
-export default Header
+  return (
+    <div
+      style={{
+        backgroundColor: "red",
+        padding: "2px",
+        alignItems: "center",
+        textAlign: "center",
+        color: "white",
+        fontSize: "bold",
+      }}
+    >
+      <h3
+        style={{
+          border: "2px solid white",
+          padding: "10px",
+        }}
+      >
+        Header
+      </h3>
+    </div>
+  );
+};
+
+export default Header;
