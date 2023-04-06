@@ -13,6 +13,7 @@ const Header = () => {
         textAlign: "center",
         color: "white",
         fontSize: "bold",
+        marginBottom: "10px",
       }}
     >
       <h3
