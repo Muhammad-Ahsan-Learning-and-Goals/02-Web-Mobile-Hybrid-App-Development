@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <MovieApp />
+     
       <Headr />
       <div className="main">
         {movies.map((element, index) => {
