@@ -17,12 +17,15 @@ function App() {
             <MovieApp
               key={index}
               year={element.Year}
+              type={element.Catogry}
               title={element.Title}
               img={element.Poster}
             />
+           
           );
         })}
       </div>
+       <input type="seach"/>
       <Footer />;
     </div>
   );
