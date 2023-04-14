@@ -7,10 +7,8 @@ const Forms = () => {
 
         const btnStyle = {
             padding:20,
-            border:"none",
             backgroundColor: "red",
             border:"5px solid white",
-            // padding: "5px",
             margin:10,
         }
 
