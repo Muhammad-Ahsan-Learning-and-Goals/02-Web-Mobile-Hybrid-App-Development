@@ -1,5 +1,0 @@
-reconciliation in react
-Uninary need 1 op
-Binory need 2 op
-Ternory  need 3 op
-Operator
