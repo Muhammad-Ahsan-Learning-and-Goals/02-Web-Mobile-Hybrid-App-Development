@@ -122,7 +122,62 @@
                 word-spacing: 5px;
                 line-height: 170%;
                 font: italic 100 1.2rem $text2;
-                
+
+
+            }
+        }
+}
+
+
+// 💓💓💓💓   Home 4
+
+.home4{
+    width: 100%;
+    height: 100vh;
+    background-color: $second;
+   justify-content: flex-end;
+    display: flex;
+
+    >div{
+        background-color: $third;
+        border-radius: 200px 0 0 200px;
+        width: 70%;
+        height: 70vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+         
+        >h1{
+            color: $first;
+            text-transform: uppercase;
+            width: 140px;
+            border-bottom: 2px solid $first;
+            padding: 0.5rem;
+
+
+        }
+        > article{
+            display: flex;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            >div{
+                margin: 1rem;
+                height: 10rem;
+                width: 10rem;
+                background-color: $first;
+                border-radius: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: $dark;
+
+
+
 
 
 
@@ -130,5 +185,6 @@
 
 
         }
+    }
 
 }
