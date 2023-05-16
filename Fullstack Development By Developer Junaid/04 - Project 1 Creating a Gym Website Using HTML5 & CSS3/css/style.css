@@ -1,7 +1,12 @@
+
+/*  CSS Reset */
+
 *{
     margin: 0px;
     padding: 0px;
     background:url("../img/1.jpg");
-    r
+    background-repeat: no-repeat;
+    
+
 
 }
