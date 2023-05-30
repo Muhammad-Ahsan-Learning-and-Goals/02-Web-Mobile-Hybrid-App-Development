@@ -2,6 +2,7 @@ const First = () => {
   const title = "React is Library";
   const age = 49;
   const link = "https://www.facebook.com/";
+  const person = { name: "abc", age: 12 };
   return (
     <>
       <nav className="navbar">
@@ -12,6 +13,9 @@ const First = () => {
         </div>
       </nav>
 
+      {/*  we can not print objects */}
+      
+      {/* <p>{person}</p> */}
       <div>First Component</div>
       <h3> {title}</h3>
 
