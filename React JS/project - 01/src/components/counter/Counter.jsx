@@ -1,15 +1,13 @@
-import React from 'react';
 import { useState } from "react";
-
 const Counter = () => {
-let [num, setNum] = useState(10);
+  let [num, setNum] = useState(19);
 
   let increment = () => {
-    setNum(num + 2);
+    setNum(num + 1);
   };
 
   let decrement = () => {
-    setNum(num - 2);
+    setNum(num - 1);
   };
 
   return (
@@ -21,7 +19,6 @@ let [num, setNum] = useState(10);
       </div>
     </>
   );
-
-}
+};
 
 export default Counter;
