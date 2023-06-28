@@ -1,43 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 
-
-:root{
-    --main-bg-color:#2874f0;
+:root {
+  --main-bg-color: #2874f0;
 }
-*{
-    padding: 0px;
-    margin: 0px;
-    
+* {
+  padding: 0px;
+  margin: 0px;
 }
-header{
-   
-    background-color: var(--main-bg-color);
-     font-family: 'Lato', sans-serif;
-
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
 }
-nav ul li{
-    list-style: none;
-    padding: 23px;
-
+nav {
+  display: flex;
 }
-nav ul li a{
-    color: white;
-    text-decoration: none;
-}  
 
-nav ul{
-     height: 58px;
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+  width: 88px;
+  padding: 0 25px;
+}
+
+nav ul {
+    height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0  20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  /* color: rgb(22, 90, 236); */
+  font-size: bold;
+}
+
+
+.search{
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 
+}
+.search input{
+    width: 492px;
+    height: 27  px;
+    border-radius:5px ;
+    margin: 0  56 px;
+    padding:0 12px;
+
 
 }
+.btn{
 
-footer{
-    height: 12vh;
-    background-color:var(--main-bg-color);
+    padding: 5px 10px;
     color: white;
-    font-family: 'Lato', sans-serif;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: var(--main-bg-color);
+    font-family: "Lato", sans-serif;
 }
 
+.search button{
+     font-family: "Lato", sans-serif;
+     font-weight: 988;
+
+}
+
+.container {
+  min-height: calc(100vh);
+}
+
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
