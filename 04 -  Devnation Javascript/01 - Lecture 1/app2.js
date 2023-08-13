@@ -74,6 +74,8 @@ let newRandom = random.join(",");
 console.log(newRandom);
 
 nameArray= ["Muhammad", "Ahsan" ,23,"Ali"]
+
+// take space 
 let fullName=nameArray.join(" ");
 console.log(fullName);
 
@@ -81,7 +83,7 @@ console.log(fullName);
 // 🌟🌟 Find index of an element  from an array
 
 let locationNew = random.indexOf("Ali");
-console.log(locationNew); 
+console.log(locationNew);  
 
 
 
