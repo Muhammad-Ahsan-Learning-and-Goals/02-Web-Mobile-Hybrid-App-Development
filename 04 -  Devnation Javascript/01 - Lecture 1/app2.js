@@ -73,6 +73,8 @@ console.log(random);
 let newRandom = random.join(",");
 console.log(newRandom);
 
+// add to elements 
+
 nameArray= ["Muhammad", "Ahsan" ,23,"Ali"]
 
 // take space 
@@ -82,10 +84,15 @@ console.log(fullName);
 
 // 🌟🌟 Find index of an element  from an array
 
-let locationNew = random.indexOf("Ali");
+let locationNew = nameArray.indexOf("Ali");
 console.log(locationNew);  
 
 
+// 🌟🌟 Concatination
+
+// concat anything within the same array
+
+let concat=newAray.concat(['javaScript', 'Lecure_2']);
 
 
 
