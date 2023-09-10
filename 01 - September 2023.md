@@ -14,6 +14,6 @@
 
 ### 💗 10 September 2023
 
-##### LEC 04
+##### LEC 04 ( ✔ Done )
 
 ### 💗 11 September 2023
