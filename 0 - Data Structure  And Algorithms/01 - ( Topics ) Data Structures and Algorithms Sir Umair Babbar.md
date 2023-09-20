@@ -14,4 +14,4 @@
 
 ### 06- Algoritms
 
-## 💗 Lecture 02 ;
+## 💗 Lecture 04 List

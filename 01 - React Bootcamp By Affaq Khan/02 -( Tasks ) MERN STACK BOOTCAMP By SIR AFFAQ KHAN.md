@@ -29,3 +29,15 @@
 ## 💗 18 September 2023
 
 ### LEC 09 ( ✔ Done )
+
+### LEC 10 ( ✔ Done )
+
+### LEC 11 ( ✔ Done )
+
+### LEC 12 ( ✔ Done )
+
+### LEC 13 ( ✔ Done )
+
+## 💗 19 September 2023
+
+### LEC 14 ( ✔ Done )
