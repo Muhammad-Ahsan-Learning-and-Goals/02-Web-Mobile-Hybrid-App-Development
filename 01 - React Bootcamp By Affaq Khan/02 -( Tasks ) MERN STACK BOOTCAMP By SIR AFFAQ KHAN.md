@@ -41,3 +41,11 @@
 ## 💗 19 September 2023
 
 ### LEC 14 ( ✔ Done )
+
+## 💗 20 September 2023
+
+### LEC 15 ( ✔ Done )
+### LEC 16 ( ✔ Done )
+### LEC 17 ( ✔ Done )
+
+## 💗 21 September 2023

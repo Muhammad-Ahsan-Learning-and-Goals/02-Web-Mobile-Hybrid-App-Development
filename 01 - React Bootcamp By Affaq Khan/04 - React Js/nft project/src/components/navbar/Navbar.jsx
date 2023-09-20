@@ -1,14 +1,14 @@
 import React from "react";
 import "./Navbar.css";
-
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <Link class="navbar-brand" href="#">
             <img src="/images/logo.png" alt="Logo image" className="logo" />
-          </a>
+          </Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -23,36 +23,36 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
               <li class="nav-item">
-                <a
+                <Link
                   class="nav-link active white_color"
                   aria-current="page"
-                  href="#"
+                  to="/"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li class="nav-item">
-                <a class="nav-link active white_color" href="#">
+                <Link class="nav-link active white_color" to="/projects">
                   Projects
-                </a>
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active white_color" href="#">
+                <Link class="nav-link active white_color" to="/about">
                   About Us
-                </a>
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active white_color" href="#">
+                <Link class="nav-link active white_color" to="/terms-and-conditions">
                   Terms & Conditions
-                </a>
+                </Link>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active white_color" href="#">
+                <Link class="nav-link active white_color" to="/contact">
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
             <form class="d-flex" role="search">

@@ -35,5 +35,8 @@
 
 ### React Js:
 #### 💗 React JS is Libray ( Dependent on other ) Framework is independent
-#### 💗 
-
+#### 💗 JSX 
+#### 💗 Simple VS Default Export 
+#### 💗 Props
+#### 💗 How to Access Data From File using map Function
+#### 💗 React Router Dom
