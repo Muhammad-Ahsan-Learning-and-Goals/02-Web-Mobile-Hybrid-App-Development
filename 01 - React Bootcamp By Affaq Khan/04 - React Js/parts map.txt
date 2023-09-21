@@ -1,0 +1,16 @@
+<div className="col-lg-6 col-md-6 col-sm-12 right-col">
+            <h1 className="white_color text-center"> Top Categories</h1>
+            {/*  Mapping the Data Items */}
+            <hr className="white_color" />
+            <div className="row">
+              {topCategories.map((Category) => (
+                <>
+                  <div className="col-6 col-lg-4 col-md-4 col-sm- text-center">
+                    <img src={Category.img} className="category-img" alt="" />
+
+                    <p className="white_color category_name">{Category.name}</p>
+                  </div>
+                </>
+              ))}
+            </div>
+          </div>

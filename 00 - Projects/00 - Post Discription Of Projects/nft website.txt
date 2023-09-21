@@ -1,0 +1,34 @@
+🚀 NFT Wesbite  Using React  JS🎉
+
+💡 This modern  NFT Wesbite showcases NFT's Which Access Data from Arrays Of Objects and Display NFT's Using in the form of Cards.
+
+💡 We Access Data From Arrys of Object File Using MAP Fnction.
+
+💡 Features 👇
+-------------------------------
+ ✅ Responsive Design:
+ ✅Responsive Design: Optimal user experience on all screens.
+ ✅ Perorm Increment and Decrement Functionality
+ ✅ Responsive design to ensure a seamless experience across devices.
+
+💡 Technologies Used:
+-------------------------------
+ ✅ HTML,
+ ✅ CSS
+ ✅ Bootstrap
+ ✅ React JS,
+ ✅ Map Function
+ ✅ React Router DOM
+ ✅ Access dat From JSON File
+ ✅ Create With Vite 
+ ✅ Deployment On Vercel
+
+🔗 Links:  👇
+---------
+💻  - Live App 👉 https://vercel.com/ahsanshareef21/03-movie-search-app
+
+💻 - Code 👉 https://github.com/ahsanshareef21/04-React.JS-Projects/tree/Master/03%20-%20Movie%20Search%20App
+
+Happy Learning 💌
+#React #JSONDataAccess #MovieCatalog #ReactJS #FrontEndDevelopment #WebApp #MovieDatabase #DynamicContent #UIUXDesign #MovieListings #JSONParsing #MovieDetails #WebDevelopment #InteractiveUI #DataRendering #MovieLibrary #ReactComponents #ModernWeb #MovieSearch #JSONIntegration #MovieInformation #UserExperience #MovieAppDesign #JSONFetch #MovieGallery #ReactWebApp #MovieCatalogue #WebDesign #MovieAPI #JSONMovies #MovieDiscover
+#ResponsivePortfolio #WebDesign #HTML5 #CSS3 #ModernWebDevelopment #WebDevelopment #ResponsiveDesign #PortfolioShowcase #CustomAnimations #ContactForm #CreativeDesign #UserExperience #HTMLCSS #WebTechnologies #WebsiteDesign #Innovation #WebProject #WebDevelopmentProject #DigitalPortfolio #MobileResponsive #InteractiveDesign #WebDesignTrends #CuttingEdgeTechnology #ImpressivePortfolio #OnlinePortfolio #PortfolioWebsite #WebCreativity #VisualDesign #UserFriendly #SeamlessResponsive #WebTech #InnovativeDesign 🚀🎉
