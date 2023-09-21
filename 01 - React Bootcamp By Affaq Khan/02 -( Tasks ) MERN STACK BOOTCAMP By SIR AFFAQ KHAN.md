@@ -1,4 +1,4 @@
-# MERN STACK BOOTCAMP By SIR AFFAQ KHAN ( 6 Pm To Ownword )
+# MERN STACK BOOTCAMP By SIR AFFAQ KHAN
 
 ## 💗 13 September 2023
 
@@ -45,7 +45,15 @@
 ## 💗 20 September 2023
 
 ### LEC 15 ( ✔ Done )
+
 ### LEC 16 ( ✔ Done )
+
 ### LEC 17 ( ✔ Done )
 
 ## 💗 21 September 2023
+
+### LEC 18 ( ✔ Done )
+
+### LEC 19 ( ✔ Done )
+
+### LEC 20 ( ✔ Done )

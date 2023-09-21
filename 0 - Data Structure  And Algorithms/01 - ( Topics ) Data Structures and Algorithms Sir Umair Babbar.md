@@ -15,3 +15,11 @@
 ### 06- Algoritms
 
 ## 💗 Lecture 04 List
+
+### 01- List
+
+### 02- Successor & Predecessor
+
+### 03- Order / Sorted and UnOrder List
+### 04- OPerations on List ( Insertion , Display , Search , Upgrade)
+

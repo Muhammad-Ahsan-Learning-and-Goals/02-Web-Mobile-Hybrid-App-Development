@@ -44,7 +44,10 @@ const Navbar = () => {
               </li>
 
               <li class="nav-item">
-                <Link class="nav-link active white_color" to="/terms-and-conditions">
+                <Link
+                  class="nav-link active white_color"
+                  to="/terms-and-conditions"
+                >
                   Terms & Conditions
                 </Link>
               </li>
