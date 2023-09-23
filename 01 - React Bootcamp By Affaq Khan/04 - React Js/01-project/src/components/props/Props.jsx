@@ -1,14 +1,19 @@
 import React from "react";
-import "./Props.css";
+// import "./data";
 
-const Props = ({ name, color, price }) => {
+const Props = ({ std }) => {
   return (
     <>
-      <div>
-        <h2> {name}</h2>
-        <h2>{color}</h2>
-        <h2>{price}</h2>
-      </div>
+      {/* <h3>
+        My name is {name}, I am {age} years old, and I am in class {className}.
+
+           
+      </h3> */}
+      {/*  Single component */}
+      
+      <h2>{std.name}</h2>
+      <h2>{std.age}</h2>
+      <h2>{std.class}</h2>
     </>
   );
 };

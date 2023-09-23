@@ -40,3 +40,49 @@
 #### 💗 Props
 #### 💗 How to Access Data From File using map Function
 #### 💗 React Router Dom
+#### 💗 Array Destructuring
+#### 💗 State
+#### 💗 Hooks
+#### 💗 USe Effect Hooks are used  to fetch The Data , Three Conditions (Load One Time , Load infinate Time , give them value to run again)
+
+### Rund Afer 1 Sec Interval
+
+
+<code>
+ const [count, setCount] = useState(0);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+        setCount((count)=>
+        count+1)
+    },1000)
+
+</code>
+
+<code>
+  useEffect(()=>{
+    setTimeout(()=>{
+        setCount((count)=>
+        count+1)
+    },1000)
+
+    })
+</code>
+
+### Rund Afer One Time
+
+<code>
+  useEffect(()=>{
+    setTimeout(()=>{
+        setCount((count)=>
+        count+1)
+    },1000)
+
+    },[])
+</code>
+
+
+#### 💗 Form Handling
+
+#### 💗 onChangeEvent
+

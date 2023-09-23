@@ -1,0 +1,25 @@
+import React, { useState } from "react";
+
+const Forms = () => {
+  const [name, setName] = useState(" ");
+
+  const submitForm = () => {
+    console.log(name);
+  };
+  return (
+    <>
+      <h1>Forms</h1>
+      <form action="" onSubmit={(e)=>e.preventDefault()}>
+        <label htmlFor="">Enter Your Name</label> <br />
+        <input
+          type="text"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <button onClick={submitForm}>Submit</button>
+      </form>
+    </>
+  );
+};
+
+export default Forms;
