@@ -3,12 +3,22 @@ import { studentsInfo } from "./components/props/data";
 import State from "./components/state/State";
 import States from "./components/state/States";
 import Forms from "./components/forms/Forms";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/API/Home";
+import Signup from "./components/API/Signup";
+import Signin from "./components/API/Signin";
 
 // import Props from "./components/props/Props";
 
 const App = () => {
   return (
     <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signin" element={<Signin />} />
+        <Route path="/signup" element={<Signup />} />
+      </Routes>
+
       {/* <Props name="Ali" age="6" className="FSC" />
       <h3> Hello Word</h3> */}
 
@@ -22,7 +32,7 @@ const App = () => {
 
       {/* 🐱‍🏍 Forms Component Start */}
 
-      <Forms />
+      {/* <Forms /> */}
 
       {/* 🐱‍🏍 Forms Component End */}
 

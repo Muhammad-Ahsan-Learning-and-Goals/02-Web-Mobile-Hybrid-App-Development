@@ -57,3 +57,21 @@
 ### LEC 19 ( ✔ Done )
 
 ### LEC 20 ( ✔ Done )
+
+## 💗 22 September 2023
+
+### LEC 21 ( ✔ Done )
+
+### LEC 22 ( ✔ Done )
+
+## 💗 23 September 2023
+
+### LEC 23 ( ✔ Done )
+
+## 💗 24 September 2023
+
+### LEC 24 ( ✔ Done )
+
+## 💗 25 September 2023
+
+### LEC 25 ( ✔ Done )

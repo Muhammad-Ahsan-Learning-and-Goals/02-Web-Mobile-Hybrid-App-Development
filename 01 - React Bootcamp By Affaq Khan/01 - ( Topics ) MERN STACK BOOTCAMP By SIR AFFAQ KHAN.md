@@ -85,4 +85,19 @@
 #### 💗 Form Handling
 
 #### 💗 onChangeEvent
+#### 💗 fetch(javascript ka menthod ha slow api req ) vs axios API
+#### 💗 Asynx await
+#### 💗 try (success / Resolve ) catch (  if Reject )
+#### 💗  Types of API's( Get (backend sy data lana ) , Post (backend ko data transfer krna)  Pahge (data ko edit krna ) , Delete (data ko dell krna )
+
+
+
+
+
+Chat app
+Search bar
+
+
+
+
 
