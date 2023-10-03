@@ -1,0 +1,32 @@
+.main_div {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  width: 500px;
+  height: 500px;
+  background-color: whitesmoke;
+  
+}
+
+#car1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(182, 59, 59);
+}
+
+#car2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(111, 111, 111);
+}
+
+#car3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(39, 201, 11);
+}
+#car4 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(124, 38, 127);
+}
