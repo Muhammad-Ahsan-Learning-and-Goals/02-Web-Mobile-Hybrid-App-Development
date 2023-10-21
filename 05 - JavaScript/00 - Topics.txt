@@ -1,0 +1,23 @@
+01 - CallBack Function
+
+setTimeout (function (){
+console.log("Thi is Call Back Function "),2000
+}
+
+
+
+
+02 - //For in Loop
+
+var obj = {
+  fname: "ALi",
+  Lname: "Raza",
+};
+
+for (var key in obj) {
+  console.log(key, obj[key]);
+}
+
+03 - // Heap memory
+
+// Exicution context

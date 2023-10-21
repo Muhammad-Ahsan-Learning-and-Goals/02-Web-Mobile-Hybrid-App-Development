@@ -1,3 +1,0 @@
-git add .
-git commit -m "your commit which you want to add"
-git push origin main
