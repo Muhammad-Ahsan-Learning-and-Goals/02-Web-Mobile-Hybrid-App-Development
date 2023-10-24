@@ -1,0 +1,17 @@
+.mainhead1 {
+  display: flex;
+  list-style-type: none;
+  background-color: brown;
+  padding: 15px;
+  justify-content: center;
+}
+li > a {
+  color: white;
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  text-decoration: none;
+}
+
+
+

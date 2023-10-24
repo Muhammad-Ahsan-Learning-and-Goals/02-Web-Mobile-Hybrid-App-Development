@@ -1,0 +1,32 @@
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.navbar-nav{
+    border:  1px solid white;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+.btn-navbar li{
+
+  color: white;
+  margin-right: 8px;
+
+
+}
+.btn-navbar{
+  padding: 8px;
+    background-color: #2156ff;
+    color: white;
+    border-radius: 25px;
+     
+} 
+
+.btn-navbar:hover{
+  background-color:#0b258f;
+  color: white;
+}
+
