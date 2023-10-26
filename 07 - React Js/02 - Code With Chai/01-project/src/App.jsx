@@ -1,10 +1,13 @@
-import React from "react";
 
+import MainComponent from "./components/counter/MainComponent";
 const App = () => {
   return (
-    
     <>
-      <div>App</div>
+      <div>
+
+        <MainComponent />
+      
+      </div>
     </>
   );
 };
