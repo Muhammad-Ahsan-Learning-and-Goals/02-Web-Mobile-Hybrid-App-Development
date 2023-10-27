@@ -11,6 +11,11 @@ const Counter = () => {
     // counter = counter+1;
 
     setCounter(counter + 1);
+    setCounter(previouscounter => previouscounter + 1);
+
+    setCounter(previouscounter => previouscounter + 1);
+    setCounter(previouscounter => previouscounter + 1);
+    setCounter(previouscounter => previouscounter + 1);
   };
 
   const removeValue = () => {
@@ -24,10 +29,20 @@ const Counter = () => {
       <div>
         <h3> Conuter Vaues : {counter} </h3>
 
-        <button onClick={addValue}> Add Value</button>
+        <button
+          className="bg-green-500 rounded-xl text-black p-4 "
+          onClick={addValue}
+        >
+          Add Value
+        </button>
         <br />
         <br />
-        <button onClick={removeValue}> Remove Value</button>
+        <button
+          className="bg-green-500 rounded text-black p-4"
+          onClick={removeValue}
+        >
+          Remove Value
+        </button>
       </div>
     </>
   );

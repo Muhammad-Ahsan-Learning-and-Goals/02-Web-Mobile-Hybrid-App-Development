@@ -1,12 +1,10 @@
+import MainComponent from "./components/MainComponent";
 
-import MainComponent from "./components/counter/MainComponent";
 const App = () => {
   return (
     <>
       <div>
-
-        <MainComponent />
-      
+        <MainComponent/>
       </div>
     </>
   );
