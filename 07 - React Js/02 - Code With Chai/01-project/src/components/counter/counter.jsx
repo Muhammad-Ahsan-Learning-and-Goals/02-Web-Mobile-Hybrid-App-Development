@@ -1,27 +1,25 @@
 import { useState } from "react";
 
 const Counter = () => {
-
   //   let counter = 10;
 
   let [counter, setCounter] = useState(4);
 
   const addValue = () => {
-
     // counter = counter+1;
 
     setCounter(counter + 1);
-    setCounter(previouscounter => previouscounter + 1);
 
-    setCounter(previouscounter => previouscounter + 1);
-    setCounter(previouscounter => previouscounter + 1);
-    setCounter(previouscounter => previouscounter + 1);
+    
+    setCounter((previouscounter) => previouscounter + 1);
+
+    setCounter((previouscounter) => previouscounter + 1);
+    setCounter((previouscounter) => previouscounter + 1);
+    setCounter((previouscounter) => previouscounter + 1);
   };
 
   const removeValue = () => {
-   
     setCounter(counter - 1);
-    
   };
 
   return (
