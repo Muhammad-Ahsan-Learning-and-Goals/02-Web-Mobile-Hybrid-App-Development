@@ -3,7 +3,7 @@ import Counter from "./counter/Counter";
 import "./MainComponentApp.css";
 import MapFunction from "./map/MapFunction";
 import Props from "./props/Props";
-import Form from "./forms/Form";
+import Forms from "./forms/Form";
 import FormApi from "./forms/FormApi";
 
 
@@ -25,13 +25,11 @@ const MainComponentApp = () => {
 
         {/* ✅ Forms   Start */}
 
-        {/* <Form /> */}
+        <Forms />
 
         {/* ✅ FormAPI  Start */}
 
-        <FormApi/>
-
-
+        {/* <FormApi/> */}
       </div>
     </>
   );
